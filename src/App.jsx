@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Section from './Components/Section'
 import Explore from './Components/Explore'
 import Section2 from './Components/Section2'
+import Socialmedia from './Components/Socialmedia'
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
     </section>
     <section className='mt-20 '>
       <Section2/>
+    </section>
+    <section className='mt-30 mb-20'>
+    <Socialmedia/>
     </section>
     </div>
   )
