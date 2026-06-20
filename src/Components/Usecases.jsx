@@ -2,7 +2,7 @@ import React from 'react'
 
 const Usecases = () => {
   return (
-    <div className='flex items-center justify-between gap-80'>
+    <div className='flex flex-col gap-4 sm:flex-row  items-center justify-between sm:gap-80'>
       <div className='flex flex-col h-100  p-8 gap-3'>
         <p>USD bloom in Action</p>
         <h1 className='text-5xl'>Use cases</h1>

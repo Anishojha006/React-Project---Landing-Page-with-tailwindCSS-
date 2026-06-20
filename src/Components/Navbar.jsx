@@ -3,11 +3,11 @@ import Button from './Button'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-center items-center gap-96 cursor-pointer '>
+    <div className='flex  justify-between items-center  cursor-pointer '>
       <div>
         <h3 className='flex justify-center items-center'><i class=" ri-add-circle-fill text-4xl active:scale-95 transition-all duration-300 ease-in-out"></i> BloonFi</h3>
     </div>
-    <div className='flex justify-center items-center gap-6'>
+    <div className=' gap-6 hidden sm:flex sm:justify-center sm:items-center'>
         <h3 className='cursor-pointer active:scale-95 transition-all duration-300 ease-in-out'>USD bloom</h3>
         <h3 className='cursor-pointer active:scale-95 transition-all duration-300 ease-in-out'>Business</h3>
         <h3 className='cursor-pointer active:scale-95 transition-all duration-300 ease-in-out'>Treasury</h3>

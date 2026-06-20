@@ -2,8 +2,8 @@ import React from 'react'
 
 const Section2 = () => {
   return (
-    <div className='flex justify-center align-center gap-20'>   
-        <div className='flex flex-col justify-between  bg-blue-100 text-[#2C2645] p-15 rounded-2xl gap-10 w-[60%] h-66 '>
+    <div className='flex flex-col sm:flex-row justify-center align-center sm:gap-20 gap-10'>   
+        <div className='flex sm:p-15 flex-col justify-between  bg-blue-100 text-[#2C2645] p-15 rounded-2xl gap-10 w-[100%] h-66 '>
             <h1 className='text-3xl'>Capital that grows</h1>
             <p className='w-[85%]'>Earn passive income as your stablecoins are deployed into high-performing DeFi protocols.</p>
         </div>
