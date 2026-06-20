@@ -4,10 +4,11 @@ import Section from './Components/Section'
 import Explore from './Components/Explore'
 import Section2 from './Components/Section2'
 import Socialmedia from './Components/Socialmedia'
+import Usecases from './Components/Usecases'
 
 const App = () => {
   return (
-    <div className='p-3 m-3'>
+    <div className='p-3  bg-[#F5F5F5]'>
     <header className='pt-1'>
       <Navbar />
     </header>
@@ -23,6 +24,9 @@ const App = () => {
     <section className='mt-30 mb-20'>
     <Socialmedia/>
     </section>
+    <footer>
+      <Usecases/>
+    </footer>
     </div>
   )
 }
